@@ -1,5 +1,5 @@
-# My Projects
-This repository contains multiple past projects that I have completed.
+# Ben Cavanagh - Undergraduate Projects
+This repository contains multiple past projects completed during undergraduate years.
 
 ## Contact Information
 **Email:** ben_cavanagh@outlook.com  
@@ -56,11 +56,11 @@ This repository contains multiple past projects that I have completed.
   4. Output the maximum load and sub-array coordinates for each processor.
   
 ## Marble Machine
-**Summary:** Team project to develop a progam to help create a functional and visually-appealing marble machine.
+**Summary:** Engineering project software to enable the functionality and control of physical electronic components of a box called the Marble Machine.
 
 **Details:**
 - **Language Used:** C++
-- **Goal:** To create a box that guides marbles through the box from the entrance to the exit.
+- **Goal:** To plan, design, and implement a program for the motor and LED components of the box to guide marbles through the box from the entrance to the exit.
 - **Components:** LEDs and 2 types of motors.
 - **Subsystems:**
   - Rotating ferris wheel.

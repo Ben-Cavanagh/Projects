@@ -2,14 +2,6 @@ package coinGame;
 
 public class OptimalMovesAndWinnings {
 	
-	/* 
-	 * Use this class to implement programs for Tasks 2 & 3. Your file must not change the package name,
-	 * nor the class name. You must not change the names nor the signatures of the program stubs
-	 * in this file. You may augment this file with any other method or variable/data declarations that you
-	 * might need to implement the dynamic programming strategy requested in the specification.
-	 * Make sure however that all your declarations are public
-	*/ 
-	
 	// The original pile of coins
 	int coinList[];
 
