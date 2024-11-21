@@ -22,7 +22,7 @@ This repository contains multiple past projects completed during undergraduate y
   7. Create an "activity-by-activity view" visualisation file for every participant
   8. Create a "summary view" visualisation file for every participant
   9. Create a single "summary view" visualisation file containing the data for all participants
-- **Note:** Cannot show code due to belonging to the university
+- **Note:** Cannot show code due to belonging to the university, however, the processes are detailed in the Thesis Report
 
 ## VivaMQ
 **Summary:** Team-based web application project to process a student's written submission and generate oral examination questions powered by AI
@@ -32,7 +32,7 @@ This repository contains multiple past projects completed during undergraduate y
 - **Backend Tools Used:** Docker, Swagger, Prisma
 - **Approach:** Establish a database and create numerous backend API endpoints to be called from the frontend to store and retrieve records
 - **Final Deployed Application:** https://vivamq.app/
-- **Note:** Cannot show full solution due to belonging to the university, however, example API endpoints are provided
+- **Note:** Cannot show full solution due to belonging to the university, however, example API endpoints/validators are provided
 
 ## JobScheduler1
 **Summary:** Developed a client-side job-scheduling algorithm based on a Largest Round-Robin (LRR) approach.
