@@ -5,19 +5,34 @@ This repository contains multiple past projects completed during undergraduate y
 **Email:** ben_cavanagh@outlook.com  
 **Phone:** 0490483292
 
-## DataAnalysis
-**Summary:** Created a program to analyse data taken from images of elderly participants performing daily activities.
+## Software Engineering Research Thesis
+**Summary:** Created an algorithm to visualise spatio-temporal ADL data taken from images of elderly participants performing daily activities.
 
 **Details:**
 - **Language Used:** Java  
-- **Classes:** Main class ('DataAnalysis'), 'ImageRecord' class, and 'ActivityRecord' class.
-- **Dataset:** Images organised by activity classes and participants that capture daily activities of 26 elderly people.
+- **Classes:** 'Main' class, 'ImageRecord' class, and 'ActivityRecord' class.
+- **Dataset:** Images categorised by activity classes and participants that capture daily activities of 26 elderly people.
 - **Process:**
-  1. Search through all dataset folders to create a collection of image records.
-  2. Sort image records chronologically for each participant.
-  3. Output sorted records into a file as a long table.
-  4. For each participant, define start and end time for all their activities, calculate duration of activities, and determine a representative image for each activity.
-  5. Print a separate activity table for each participant containing the above information.
+  1. Iterate through dataset and parse image data from multiple sources
+  2. Sort image data records chronologically for each participant
+  3. Identify and delete duplicate/outlier image records
+  4. Define the "activities" for each participant using the processed image records
+  5. Calculate the total combined time duration for all instances of each of a participant's activity classes
+  6. Output the tabular results into an Excel file
+  7. Create an "activity-by-activity view" visualisation file for every participant
+  8. Create a "summary view" visualisation file for every participant
+  9. Create a single "summary view" visualisation file containing the data for all participants
+- **Note:** Cannot show code due to belonging to the university
+
+## VivaMQ
+**Summary:** Team-based web application project to process a student's written submission and generate oral examination questions powered by AI
+
+**Details:**
+- **Language Used:** JavaScript
+- **Backend Tools Used:** Docker, Swagger, Prisma
+- **Approach:** Establish a database and create numerous backend API endpoints to be called from the frontend to store and retrieve records
+- **Final Deployed Application:** https://vivamq.app/
+- **Note:** Cannot show full solution due to belonging to the university, however, example API endpoints are provided
 
 ## JobScheduler1
 **Summary:** Developed a client-side job-scheduling algorithm based on a Largest Round-Robin (LRR) approach.
